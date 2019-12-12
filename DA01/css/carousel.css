@@ -1,0 +1,87 @@
+.customer-review{
+	margin-top: 45px;
+}
+.customer-review-title{
+	text-align: center;
+}
+.customer-review-message{
+	border: 1px dashed black; 
+	width: 330px;
+	position: relative;
+	height: auto;
+	padding: 30px 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.customer-review-message:after{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-top: 0px dashed black;
+	border-right: 1px dashed black;
+	border-bottom:1px dashed black;
+	border-left: 0px dashed black;
+	content:''; 
+	top: 100%;
+	left: 10%;
+	transform: rotate(45deg);
+	margin-top: -25px;
+	background: white;
+}
+.customer-review-message p{
+	margin-left: 20px;
+}
+.customer-review-info{
+	display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin-top: 40px;
+}
+.customer-review-list{
+	margin-top: 45px;
+}
+.item-title{
+	text-align: center;
+	margin-top: 15px;
+}
+.small-item{
+	position: relative;
+}
+.hot-item .col-lg-9 .row:nth-of-type(2){
+    margin-top: 65px;
+
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	height: 0px;
+	width: 200px;
+	background: #6bc04b;
+	transition: all 0.3s ease;
+	opacity: 0.8;
+	z-index: -1;
+}
+.small-item:hover .overlay{
+	height: 200px;
+	z-index: 1;
+}
+.overlay-button a{
+	border-radius: 5px;
+	background: #fff;
+	padding: 2px 5px;
+	color: black;
+}
+.nav{
+	/*background-color: #46ad0e;*/
+}
+.background-navTab{
+	position: relative;
+	background-color: #46ad0e !important;
+}
+ul{
+	position: absolute;
+	bottom: 0px;
+}

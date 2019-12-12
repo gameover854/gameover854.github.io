@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sản phẩm chi tiết</title>
+	<!-- BOOTSTRAP 4 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="../css/sanphamchitiet.css">
+	<!-- FONTAWESOME -->
+	<!-- <script src="https://kit.fontawesome.com/6fe1c9d693.js" crossorigin="anonymous"></script> -->
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="Shorcut icon" type="image/png" href="../img/favicon.png">
+</head>
+<body>
+	<header>
+		<div class="header-top container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="nam-of-linh">
+						<a href="https://www.facebook.com/nguyen.linh.712714">Nguyễn Nhật Linh - 21/11/2019</a>
+					</div>
+					<div class="header-contact col-lg-12">
+						<div class="header-hotline">
+							<img src="../img/phone.png" alt="">
+							<p><b>Hotline:</b>012.345.678</p>
+						</div>
+						<div class="header-logo-social">
+							<a href="#">
+								<img src="../img/logo_facebook.png" alt="">
+							</a>
+							<a href="#">
+								<img src="../img/logo_google.png" alt="">
+							</a>
+							<a href="#">
+								<img src="../img/logo_twitter.png" alt="#">
+							</a>
+							<a href="#">
+								<img src="../img/logo_youtube.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bot container">
+			<div class="row">
+				<div class="header-bot-logo col-lg-3">
+					<a href="#">
+						<img src="../img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="header-bot-searchForm col-lg-5">
+					<form action=""class="form-inline">
+						<input type="text" placeholder="TÌm kiếm">
+						<a href="#"><img src="../img/button_search.png" alt=""></a>
+					</form>
+				</div>	
+				<div class="header-bot-image col-lg-4">
+					<div class="row">
+						<div class="hbi col-lg-6">
+							<img src="../img/hand.png" alt="">
+							<p>CAM KẾT CHẤT LƯỢNG SẢN PHẨM DỊCH VỤ</p>
+						</div>
+						<div class="hbi col-lg-6">
+							<img src="../img/car.png" alt="">
+							<p>VẬN CHUYỂN NỘI THÀNH MIỄN PHÍ</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="nav-background container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="nav-toogle col-lg-3">
+						<img src="../img/nav-toogle-icon.png" alt="">
+						<a href="#">DANH MỤC SẢN PHẨM</a>
+					</div>
+					<div class="nav-item-list col-lg-9">
+						<div class="nav-item">
+							<a href="#" onclick="location.href='index.html'" >TRANG CHỦ</a>
+						</div>
+						<div class="nav-item">
+							<a href="#" onclick="location.href='gioithieu.html'">GIỚI THIỆU</a>
+						</div>
+						<div class="nav-item">
+							<a href="#" onclick="location.href='sanpham.html'">SẢN PHẨM</a>
+						</div>
+						<div class="nav-item">
+							<a href="#" onclick="location.href='dichvu.html'">DỊCH VỤ</a>
+						</div>
+						<div class="nav-item">
+							<a href="#" onclick="location.href='hotrokhachhang.html'">HỖ TRƠ KHÁCH HÀNG</a>
+						</div>
+						<div class="nav-item">
+							<a href="#" onclick="location.href='tintuc.html'">TIN TỨC</a>
+						</div>
+						<div class="nav-item">
+							<a href="#" onclick="location.href='lienhe.html'">LIÊN HỆ</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">	
+					<div class="menu-hover col-lg-12">
+						<div class="menu-hover-item">
+							<img src="../img/menu-hover-icon.png" alt="">
+							<p>Cây trang trí trong nhà</p>
+						</div>
+						<div class="menu-hover-item">
+							<img src="../img/menu-hover-icon.png" alt="">
+							<p>Cây trang trí trong vườn</p>
+						</div>
+						<div class="menu-hover-item">
+							<img src="../img/menu-hover-icon.png" alt="">
+							<p>Cây phong thủy</p>
+						</div>
+						<div class="menu-hover-item">
+							<img src="../img/menu-hover-icon.png" alt="">
+							<p>Cây cổ thụ</p>
+						</div>
+						<div class="menu-hover-item">
+							<img src="../img/menu-hover-icon.png" alt="">
+							<p>Cây bóng mát</p>
+						</div>
+						<div class="menu-hover-item">
+							<img src="../img/menu-hover-icon.png" alt="">
+							<p>Dịch vụ vật tư</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="title">
+					<p>Trang chủ > sản phẩm > sản phẩm chi tiết</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="item-main-image col-lg-6">
+					<img src="../img/item_main_image.png" alt="">
+					<div class="item-small-list">
+						<img src="../img/item_small_image_01.png" alt="" id="">
+						<img src="../img/item_small_image_02.png" alt="">
+						<img src="../img/item_small_image_03.png" alt="">
+						<img src="../img/item_small_image_04.png" alt="">
+					</div>
+				</div>
+				<div class="item-main-details col-lg-6">
+					<div class="item-main-title">
+						<h4>Cây kim ngân</h4>
+						<ul>
+							<li>Mã sản phẩm: 0123</li>
+							<li>Tình trạng: Còn hàng</li>
+						</ul>
+					</div>
+					<div class="item-main-price">
+						<div class="price">
+							<label for="price">Giá  bán:</label>
+							<h3 id="price" name="price" value ="100000">100000 đ</h3>
+							
+							<span id="cost" style="display: none">100000</span>
+						</div>
+						<div class="number">
+							<label for="number">Số lượng:</label> <br>
+							<input type="number" id="number" max="100" min="1" value="1">
+						</div>
+						<div class="button-buy">
+							<img src="../img/buy.png" alt="">
+							<a href="#">ĐẶT HÀNG</a>
+						</div>
+					</div>
+					<div class="item-main-short-details">
+						<b>Mô tả ngắn</b>
+						<p>Cây kim ngân hay còn gọi là cây thắt bím, cây bím tóc phù hợp với gia chủ muốn mua cây đặt ở phòng khách, phòng hội họp, văn phòng công sở, nhà hàng, khách sạn, hoặc dùng làm quà tặng trong những dịp mừng lễ, tết, thăng chức, khai trương. Các cây nhỏ có thể để bàn ngoài tác dụng đem lại tài lộc nó lại còn có thể đuổi muỗi.
+						</p>
+					</div>
+					<div class="tag">
+						<b>Tags:</b>
+						<a href="">Cây bím tóc</a>,<a href="#">Cây cảnh kim ngân</a>,<a href="#">cay bim toc</a>
+					</div>
+					<div class="like">
+						<a href=""><img src="../img/like.png" alt=""></a>
+					</div>
+				</div>
+			</div>		
+			<div class="row">
+				<div class="background-tab">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Thông tin sản phẩm</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Đánh giá</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="text">
+							<p>Cây kim ngân có tên khoa học là Pachira aquatica, xuất xứ từ Mexico, Brazill Nam Mỹ và đầm lầy Trung Mỹ. Đối với người tây phương thì họ gọi cây kim ngân là money tree có nghĩa là cây tiền, có thể chính vì lý do đó mà nó nhanh chóng phát triển và được đưa đến Việt Nam để làm cây cảnh văn phòng hoặc trang trí trong nhà. Với ý nghĩa khi gia chủ sở hữu cây kim ngân sẽ có nhiều tiền vàng, sự may mắn và thịnh vượng. Ngoài ra kim ngân còn có các tên khác như cây thắt bím và một tác dụng nữa mà ít người biết đến chính là nó có thể đuổi muỗi.</p>
+						</div>
+						<div class="text">
+							<div class="row"><div class="text-content col-lg-6">
+								<b>Đặc điểm của cây kim ngân</b>
+								<p>
+									Kim ngân có thể cao được hơn 6m, thân dẻo dai, bền chắc. Ở bên Anh và Mỹ nó được dùng để làm bột giấy để in tiền. Lá kim ngân xòe rộng như bàn tay, xanh quanh năm. Một số tài liệu ghi chép thì cây nở hoa từ tháng 4 đến tháng 11. Hoa gồm những cánh lớn màu kem nhạt, nở về đêm và toả hương thoang thoảng, đài hoa màu nâu nhạt hình bầu dục với 5 cánh màu xanh vàng, dài 15cm. Quả kim ngân có hình trứng, đường kính khoảng 10cm. Khi chín quả có màu nâu nhạt. Quả khô nứt dụng ra khoảng 10 – 20 hạt. Tuy nhiên có thể ở môi trường và điều kiện không phù hợp mà rất hiếm khi thấy kim ngân nở hoa. <br>
+									Cây kim ngân còn được gọi là cây thắt bím hay bím tóc vì ở giai đoạn cây con, người ta trồng chung từ 3 – 5 cây vào một chỗ rồi đan thắt như một cái bím tóc trông rất ngộ nghĩnh. Một chậu kim ngân nhỏ xinh có thể để trên bàn làm việc, quầy thu ngân , hoặc gắn lên đó chiếc nơ trang trí, sẽ trở thành món quà sinh nhật để tặng cho người thân.
+									Cây kim ngân để bàn giá 160k
+									Cây kim ngân được làm trang trí với 3 loại chính. Cây nhỏ đơn, cây tết hình bím tóc, và cây thủy sinh. 3 loại cây có 3 giá khác nhau: Như cây con đơn thường có 160k, cây kim ngân thủy sinh khoảng 200k, loại cây to thì tùy thuộc và số lượng cây, cây lớn cao 1m6 – 1m8 tết giống bím tóc có 850k
+								</p>
+							</div>
+							<div class="text-image col-lg-6">
+								<img src="../img/text-image.png" alt="">
+							</div></div>			
+						</div>
+						<div class="text">
+							<div class="row">
+								<div class="text-image col-lg-6">
+									<img src="../img/text-image02.png" alt="">
+								</div>
+								<div class="text-content col-lg-6">
+									<p><b>Cách chăm sóc và ý nghĩa phong thủy của kim ngân</b></p>
+									<b>Nhiệt độ:</b>
+									<p>Cây sống được ở nhiệt độ từ 4°C đến 40°C phát triển thích hợp ở nhiệt độ 18°C đến 26°C.
+									Như vậy đối với cây được trồng trong nhà hoặc trồng trong phòng lạnh cây vẫn sinh trưởng bình thường. Tuy nhiên để cây tồn tại lâu cần phải điều chỉnh nhiệt độ phù hợp.</p>
+									<b>Ánh sáng:</b>
+									<p>Cây đặt trong nhà với ánh sáng của đèn huỳnh quang thì cây vẫn đáp ứng được với điều kiện sinh trưởng và phát triển. Tuy nhiên để cây phát triển tốt, thình thoảng ta nên đưa cây ra ngoài trời dưới tán cây lớn với chu kỳ 10 ngày/lần, như vậy cây sẽ hấp thụ được ánh sáng và phát triển tốt hơn.</p>
+								</div>
+							</div>				
+						</div>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="title-item col-lg-12">
+					<div class="intro-main-title-background">
+						<div class="intro-main-title">
+							<div class="intro-main-title-1">
+								<img src="../img/icon_gioithieu.png" alt="">
+								<p>CÂY TRANG TRÍ TRONG VƯỜN</p>
+							</div>
+						</div>
+						<div class="intro-main-title-2">
+							<a href="#">Xem tất cả ></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-item-list">
+					<div class="row">
+						<div class="small-item col-lg-2 col-sm-6">
+							<img src="../img/item_12.png" alt="">
+							<div class="item-title">
+								<a href="#">Cây kim tiền</a>
+								<p>1.810.000đ</p>
+							</div>
+							<div class="overlay">
+								<span>Cây vạn niên thanh có ý nghĩa phong thủy tăng tài vận cho gia chủ, người ta quan niệm, tròng cây vạn niên thanh mang đến sự sung túc</span>
+								<div class="overlay-button">
+									<a href="#">Chi tiết</a>
+									<a href="#">Xem thêm</a>
+								</div>
+							</div>
+						</div>
+						<div class="small-item col-lg-2 col-sm-6">
+							<img src="../img/item_12.png" alt="">
+							<div class="item-title">
+								<a href="#">Cây kim tiền</a>
+								<p>1.810.000đ</p>
+							</div>
+							<div class="overlay">
+								<span>Cây vạn niên thanh có ý nghĩa phong thủy tăng tài vận cho gia chủ, người ta quan niệm, tròng cây vạn niên thanh mang đến sự sung túc</span>
+								<div class="overlay-button">
+									<a href="#">Chi tiết</a>
+									<a href="#">Xem thêm</a>
+								</div>
+							</div>
+						</div>
+						<div class="small-item col-lg-2 col-sm-6 col-xs-6">
+							<img src="../img/item_12.png" alt="">
+							<div class="item-title">
+								<a href="#">Cây kim tiền</a>
+								<p>1.810.000đ</p>
+							</div>
+							<div class="overlay">
+								<span>Cây vạn niên thanh có ý nghĩa phong thủy tăng tài vận cho gia chủ, người ta quan niệm, tròng cây vạn niên thanh mang đến sự sung túc</span>
+								<div class="overlay-button">
+									<a href="#">Chi tiết</a>
+									<a href="#">Xem thêm</a>
+								</div>
+							</div>
+						</div>
+						<div class="small-item col-lg-2 col-sm-6 col-xs-6">
+							<img src="../img/item_13.png" alt="">
+							<div class="item-title">
+								<a href="#">Cây kim tiền</a>
+								<p>1.810.000đ</p>
+							</div>
+							<div class="overlay">
+								<span>Cây vạn niên thanh có ý nghĩa phong thủy tăng tài vận cho gia chủ, người ta quan niệm, tròng cây vạn niên thanh mang đến sự sung túc</span>
+								<div class="overlay-button">
+									<a href="#">Chi tiết</a>
+									<a href="#">Xem thêm</a>
+								</div>
+							</div>
+						</div>
+						<div class="small-item col-lg-2 col-sm-6 col-xs-6">
+							<img src="../img/item_14.png" alt="">
+							<div class="item-title">
+								<a href="#">Cây kim tiền</a>
+								<p>1.810.000đ</p>
+							</div>
+							<div class="overlay">
+								<span>Cây vạn niên thanh có ý nghĩa phong thủy tăng tài vận cho gia chủ, người ta quan niệm, tròng cây vạn niên thanh mang đến sự sung túc</span>
+								<div class="overlay-button">
+									<a href="#">Chi tiết</a>
+									<a href="#">Xem thêm</a>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>				
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-navigation">
+			<div class="footer-contact container">
+				<div class="footer-menu">
+					<div class="footer-menu-item">
+						<a href="#">Trang chủ</a>
+					</div>
+					<div class="footer-menu-item">
+						<a href="#">Giới thiệu</a>
+					</div>
+					<div class="footer-menu-item">
+						<a href="#">Sản phẩm</a>
+					</div>
+					<div class="footer-menu-item">
+						<a href="#">Dịch vụ</a>
+					</div>
+					<div class="footer-menu-item">
+						<a href="#">Tin tức</a>
+					</div>
+					<div class="footer-menu-item">
+						<a href="#">Liên hệ</a>
+					</div>
+				</div>
+				<div class="footer-social">
+					<p>Kết nối với chúng tôi:&nbsp;</p>
+					<div class="footer-social-item">
+						<img src="../img/footer_facebook.png" alt="">
+					</div>
+					<div class="footer-social-item">
+						<img src="../img/footer_twitter.png" alt="">
+					</div>
+					<div class="footer-social-item">
+						<img src="../img/footer_google.png" alt="">
+					</div>
+					<div class="footer-social-item">
+						<img src="../img/footer_youtube.png" alt="">
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="footer-main">
+			<div class="container">
+				<div class="footer-main-map">
+					<a href="#"><img src="../img/footer_map.png" alt=""></a>
+				</div>	
+				<div class="footer-main-info">
+					<h5>NHÀ VƯỜN VÂN THỦY</h5>
+					<div class="footer-main-info-item">
+
+						<p>Địa chỉ: Đường Phú Minh, Văn Trì, Minh Khai, Bắc Từ Liêm, Hà Nội.</p>
+					</div>
+					<div class="footer-main-info-item">
+
+						<p>Hotine: 093 6596 425 (Mrs.Thủy) - 0976885796 (Mr.Lâm)</p>
+					</div>
+					<div class="footer-main-info-item">
+
+						<p>Email: buoidienvn@gmail.com</p>
+					</div>
+					<div class="footer-main-info-item">
+
+						<p>Website: buoidienvn</p>
+					</div>
+					<div class="footer-main-info-item">
+
+						<p>Copyright © 2013. Bản quyền thuộc về Nhà Vườn Vân Thủy.</p>
+					</div>
+				</div>
+				<div class="footer-main-followFB">
+					<a href="#"><img src="../img/footer_followFB.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		function openPage(pageUrl){
+			window.location(pageUrl);
+		}
+		$( document ).ready(function() {
+			$(".nav-toogle").click(function(){
+				if($('.menu-hover').css('display') == 'none')
+					$('.menu-hover').css('display','block');
+				else
+					$('.menu-hover').css('display','none');
+			});
+			$("#number").change(function(){
+				var price= $("#cost").text();
+				var number=$("#number").val();
+				$("#price").text(price*number +"đ");
+				console.log($("#price").text());
+			// $("#price").html(Number($("this").text()).toLocaleString('en'));
+		});
+		});
+	</script>
+</body>
+</html>

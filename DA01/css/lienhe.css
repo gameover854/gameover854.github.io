@@ -1,0 +1,240 @@
+/*CSS CHUNG*/
+body{
+	font-size: 14px;
+}
+p{
+	margin-bottom: 0px;
+}
+a:hover{
+	text-decoration: none;
+}
+/*CSS HEADER*/
+header{
+	position: relative;
+}
+.header-top{
+	background-color: #f5f5f5;
+	height: 33px;
+}
+.header-contact{
+	position: absolute;
+	right: 82px;
+	display: flex;
+	height: 33px;
+	width: 361px;
+}
+.header-hotline{
+	display: flex;
+	align-items: center;
+	padding-right: 18px;
+}
+.header-logo-social{
+	padding-top: 4px;
+	display: flex;
+}
+.header-logo-social a{
+	text-align: center;
+	display: block;
+	width: 40px;
+	border-left: 1px solid #d8d8d8;
+}
+.header-bot{
+	padding-top: 14px;
+}
+.header-bot-searchForm{
+	padding-top: 40px;
+}
+.header-bot-searchForm input{
+	width: 356px;
+    height: 33px;
+    padding-left: 13px;
+    outline: none;
+}
+.header-bot-image{
+	padding-top: 40px;
+}
+.header-bot-image .hbi{
+	padding: 0px;
+	display: flex;
+    align-items: center;
+}
+/*CSS NAVIGATION*/
+nav{
+	margin-top: 18px; 
+}
+nav a{
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 40px;
+}
+.nav-toogle{
+	background-color: #ff3f00;
+}
+.nav-background{
+	background-color: #46ad0e;
+}
+.nav-item-list{
+	display: flex;
+	justify-content: space-between;
+}
+/*CSS SECTION*/
+/*CSS HOT-NEWS*/
+.hot-news{
+	border: 1px solid #eaeaea;
+	margin-top: 22px;
+	/*display: none;	*/
+}
+.hot-news-item{
+	display: flex;
+	padding: 10px 0px;
+	border-bottom: 1px dotted #ccc;
+}
+.hot-news-item-title{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+/*CSS MENU-HOVER*/
+.menu-hover{
+	background-color: #f4f4f4;
+	visibility: hidden;
+}
+.menu-hover-item{
+	display: flex;
+	height: 46px;
+	align-items: center;
+	border-bottom: 1px solid #dedede;
+}
+.menu-hover-item p{
+	margin-left: 10px;
+}
+/*CSS INTRO*/
+.intro-title{
+	margin: 20px 0px 20px 0px;
+}
+.intro-main-title-background{
+	background-color: #f3f3f3;
+}
+.intro-main-title{
+	background-color: #46ad0e;
+	width: 257px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 46px;
+	color: white;
+	font-weight: bold;
+	align-items: center;
+	margin: 22px 0px 35px 0px;
+	position: relative;
+}
+.intro-main-title-1{
+	display: flex;
+	align-items: center;
+}
+.intro-main-title-1 p{
+	margin-left: 10px;
+}
+.intro-main-title:after{
+	content: "";
+    height: 32px;
+    width: 36px;
+    transform: rotate(45deg);
+    right: -18px;
+    position: absolute;
+    background: #46ad0e;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-bottom: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
+	
+}
+.intro-content{
+	margin-top: 80px;
+}
+form{
+	text-align: center;
+}
+
+label{
+	width: 106px;
+	text-align: left;
+}
+input[type="text"], input[type="mail"]{
+	width: 280px;
+}
+input[type="submit"], input[type="reset"]{
+	margin-top: 20px;
+}
+input[type="submit"]{
+	background-color: #ff3f00;
+	color: white;
+	width: 80px;
+	border-radius: 5px;
+	border: none;
+}
+input[type="reset"]{
+	background-color: #414141;
+	color: white;
+	width: 80px;
+	border-radius: 5px;
+	border: none;
+}
+input[type="text"]:nth-of-type(6){
+	height: 80px;
+}
+.contact-infor-company{
+	text-align: center;
+	background: #f8f8f8;
+	padding: 35px 56px;
+}
+/*CSS FOOTER*/
+footer{
+	margin-top: 76px;
+}
+.footer-navigation{
+	background-color: #36880b;
+	display: flex;
+	height: 52px;
+}
+.footer-contact{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #ffffff;
+}
+.footer-menu-item{
+	margin-right: 30px;
+}
+.footer-menu a{
+	color: #ffffff;
+}
+.footer-social{
+	display: flex;
+	align-items: center;
+}
+.footer-social p{
+	color: #ffffff;
+}
+.footer-social-item{
+	margin-right: 5px;
+}
+/*FOOTER-MAIN*/
+.footer-main{
+	background: url("../img/bg_footer.png");
+}
+.footer-main .container{
+	padding: 42px 0px 69px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-main-info-item{
+	display: flex;
+}
+.footer-main-info-item p{
+	line-height: 30px;
+}
