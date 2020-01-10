@@ -464,7 +464,7 @@ h4:hover{
     opacity: 0;
     margin:0px auto;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .skill-content{
         padding: 0px 25px 0px 25px;
         /* width: 200px; */
@@ -489,7 +489,7 @@ h4:hover{
     }
   }
 .skill-content-item{
-    width: 450px;
+    width: 350px;
     height: 20px;
     background-color: #e0e0e0;
     /* margin-top: 10px; */
@@ -699,6 +699,9 @@ h4:hover{
 }
 
 /* CSS PROJECT */
+.project{
+    margin-top: 100px;
+}
 .project.coming{
     height: 100vh;
     text-align: center;
