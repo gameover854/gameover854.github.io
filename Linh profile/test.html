@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+<style>
+.avatar{
+   width: 300px;
+   height: 300px;
+   background: red;
+   border-radius: 50%;
+}
+img{
+  width: 50%;
+  height: 50%;
+  transform: translate(50%,50%);
+  border-radius: 50%;
+  border: 3px solid black;
+  position: relative;
+}
+img:before{
+  position: absolute;
+  content: "";
+  border: 3px solid #ccc;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height:100px; 
+  background-color: blue;
+}
+p{
+  opacity: 0;
+}
+.animated{
+  opacity: 1;
+}
+  </style>
+  </head>
+  <body>
+    <div class="avatar">
+      <img src="img/linh.jpg"  alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt unde, saepe optio repellendus officiis quod itaque temporibus eveniet porro, laboriosam quia vitae asperiores placeat animi sapiente possimus exercitationem corporis a Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis totam ad veritatis dolores natus maiores odio, officiis doloremque tempore ab! Quaerat pariatur sed obcaecati perspiciatis cupiditate quis, recusandae provident iste rerum eveniet amet. Ratione deserunt dolore mollitia incidunt sed officia nobis corporis eligendi ab dicta pariatur facere necessitatibus, inventore, quibusdam animi magni, molestiae perspiciatis! Beatae voluptate cupiditate quas expedita, aliquam hic ipsum sed officiis voluptatum. Aliquam consectetur nostrum, minima placeat nulla possimus enim expedita adipisci cum corporis laborum, aspernatur ipsam eligendi eaque voluptates, hic voluptate saepe dignissimos? Fuga voluptatem deserunt, quos corporis doloribus, aut tempora natus consectetur veniam architecto repellat dolores, quis perspiciatis. Possimus illo officiis, eius, totam ipsum eaque quam cum sunt, distinctio consequatur impedit? Suscipit fugit illum, fuga, voluptatem quibusdam voluptas nam recusandae nulla maxime obcaecati delectus id doloribus. Ex, unde praesentium modi sequi nesciunt accusantium neque natus deleniti perferendis. Tempore ratione eligendi at rem velit laboriosam doloribus quo magni illo modi vero optio, magnam veniam corrupti molestiae deleniti veritatis ducimus quisquam. Magnam fugiat, porro debitis rem ipsum magni aperiam eveniet odio maxime ea harum voluptatibus dolorum saepe iste corporis, earum consequatur ipsa totam et nam tempore laboriosam quidem quas. Perferendis necessitatibus doloribus hic laudantium quaerat molestiae officia!
+    </p>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        $position = $(window).scrollTop();
+        console.log($position);
+        if($position > 10){
+          $("p").addClass("animated bounceInLeft");
+        }
+      });
+    });
+</script>
+</html>
