@@ -89,7 +89,7 @@ h4:hover{
     position: relative;
     background-size: cover;
     overflow: hidden;
-    box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75); */
 
 }
 .name{
@@ -393,7 +393,7 @@ h4:hover{
     overflow: hidden;
     margin-top: 100px;
     padding: 50px 82px 100px 82px;
-    box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75); */
 }
 .about-me{
     margin-top: 50px;
@@ -406,7 +406,7 @@ h4:hover{
     height: 412px;
     text-align: center;
     line-height: 22px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 .avatar-background button{
     border: none;
@@ -467,10 +467,10 @@ h4:hover{
 @media only screen and (max-width: 768px) {
     .skill-content-item{
         /* padding: 0px 25px 0px 25px; */
-        width: 50px;
+        width: 250px;
     }
     .skill-content-item:before{
-        width: 50px;
+        width: 250px;
     }
     .avatar{
        padding: 0px;
@@ -482,7 +482,8 @@ h4:hover{
         /* margin: 0px 60px; */
     }
     .content{
-        padding: 15px;
+        width: 100%;
+        padding: 0px;
     }
     .contact-item{
         border: none;
@@ -496,6 +497,9 @@ h4:hover{
     }
     .menu{
         display: none;
+    }
+    .skill-content{
+        padding: 0px;
     }
   }
 .skill-content-item{
@@ -576,11 +580,12 @@ h4:hover{
 /* CSS EDUCATION */
 .content3{
     margin-top: 100px;
-    box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75); */
     padding: 100px 15px;
     /* background-color: #f5f5f5; */
     border-radius: 0px;
     overflow: hidden;
+    width: 100%;
 }
 .timeline{
     /* position: relative; */
@@ -623,7 +628,7 @@ h4:hover{
     float: right;
 }
 .timeline-content{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     padding: 20px 20px;
 }
 .timeline-content h3,p{
@@ -714,7 +719,7 @@ h4:hover{
     margin-top: 100px;
 }
 .project.coming{
+    width: 300px;
+    margin: 200px auto;
     height: 100vh;
-    text-align: center;
-    padding:  200px;
 }
