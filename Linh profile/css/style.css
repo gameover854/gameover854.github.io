@@ -465,9 +465,12 @@ h4:hover{
     margin:0px auto;
 }
 @media only screen and (max-width: 768px) {
-    .skill-content{
-        padding: 0px 25px 0px 25px;
-        /* width: 200px; */
+    .skill-content-item{
+        /* padding: 0px 25px 0px 25px; */
+        width: 50px;
+    }
+    .skill-content-item:before{
+        width: 50px;
     }
     .avatar{
        padding: 0px;
@@ -476,20 +479,27 @@ h4:hover{
     }
     .avatar img{
         width: 70%;
-        margin: 0px 60px;
+        /* margin: 0px 60px; */
     }
     .content{
         padding: 15px;
     }
+    .contact-item{
+        border: none;
+    }
+    .about-me.details{
+        margin: 0px auto;
+         width: 320px;
+    }
     .avatar-background{
-        width: 100%;
+        width: 80%;
     }
     .menu{
         display: none;
     }
   }
 .skill-content-item{
-    width: 350px;
+    /* width: 150px; */
     height: 20px;
     background-color: #e0e0e0;
     /* margin-top: 10px; */
@@ -653,6 +663,7 @@ h4:hover{
     }
     .timeline{
         width: 100%;
+        overflow: hidden;
     }
     .timeline:before{
         position: absolute;
