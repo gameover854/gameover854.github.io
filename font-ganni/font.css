@@ -1,17 +1,16 @@
-
 @font-face {
     font-family: HelveticaNeueLT-Roman;
     src: local(HelveticaNeueLT-Roman),
-      url(HelveticaNeueLT-Roman.ttf) format("opentype");
+    url(HelveticaNeueLT-Roman.ttf) format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-  }
-  @font-face {
+}
+@font-face {
     font-family: HelveticaNeueLT-Medium;
     src: local(HelveticaNeueLT-Medium),
     url(HelveticaNeueLT-Medium) format("opentype");
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
-  }
+}
