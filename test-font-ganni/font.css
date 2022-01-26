@@ -1,0 +1,16 @@
+@font-face {
+    font-family: HelveticaNeueLTCom-Roman;
+    src: local(HelveticaNeueLTCom-Roman),
+    url(HelveticaNeueLTCom-Roman.woff) format("woff"),
+    url(HelveticaNeueLTCom-Roman.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: HelveticaNeueLTCom-Md;
+    src: local(HelveticaNeueLTCom-Md),
+    url(HelveticaNeueLTCom-Md.woff) format("woff"),
+    url(HelveticaNeueLTCom-Md.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
