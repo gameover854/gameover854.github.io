@@ -1,16 +1,16 @@
 @font-face {
-    font-family: HelveticaNeueLT-Roman;
-    src: local(HelveticaNeueLT-Roman),
-    url(HelveticaNeueLT-Roman.ttf) format("opentype");
+    font-family: HelveticaNeueLTCom-Roman;
+    src: local(HelveticaNeueLTCom-Roman),
+    url(HelveticaNeueLTCom-Roman.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-stretch: normal;
 }
 @font-face {
-    font-family: HelveticaNeueLT-Medium;
-    src: local(HelveticaNeueLT-Medium),
-    url(HelveticaNeueLT-Medium) format("opentype");
-    font-weight: bold;
+    font-family: HelveticaNeueLTCom-Md;
+    src: local(HelveticaNeueLTCom-Md),
+    url(HelveticaNeueLTCom-Md.ttf) format("truetype");
+    font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-stretch: normal
 }
